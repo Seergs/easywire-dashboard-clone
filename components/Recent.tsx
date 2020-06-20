@@ -3,7 +3,7 @@ import { data } from "../data";
 
 const Recent = () => {
   return (
-    <div className="pl-32 pr-32 pt-8">
+    <div className="pl-32 pr-32 pt-8 pb-8">
       <h4 className="font-semibold text-gray-800 text-lg tracking-wide">
         Recent activity
       </h4>
