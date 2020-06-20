@@ -23,8 +23,8 @@ const Recent = () => {
           </span>
         </div>
         <div>
-          {data.map((rowData: RowData) => (
-            <Row rowData={rowData} />
+          {data.map((rowData: RowData, i: number) => (
+            <Row rowData={rowData} key={i} />
           ))}
         </div>
       </div>

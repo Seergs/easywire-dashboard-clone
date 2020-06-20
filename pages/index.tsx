@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Sidebar />
-      <main className="w-5/6 bg-gray-100 ml-auto">
+      <main className="w-screen lg:w-5/6 bg-gray-100 m-0 lg:ml-auto">
         <Header />
         <Overview />
         <Recent />
