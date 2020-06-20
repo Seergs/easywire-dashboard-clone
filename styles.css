@@ -1,0 +1,12 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+html {
+  @apply antialiased leading-tight;
+}
+body {
+  @apply min-h-screen;
+}
