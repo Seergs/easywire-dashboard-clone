@@ -9,7 +9,7 @@ import {
 
 export default function Sidebar() {
   return (
-    <div className="w-1/6 h-screen p-4  bg-teal-800">
+    <div className="w-1/6 h-screen p-4  bg-teal-800 fixed">
       <div className="font-semibold text-2xl text-teal-100 tracking-wide">
         easywire
       </div>

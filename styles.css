@@ -8,5 +8,5 @@ html {
   @apply antialiased leading-tight;
 }
 body {
-  @apply min-h-screen;
+  @apply min-h-screen bg-gray-100;
 }

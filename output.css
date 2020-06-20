@@ -18072,6 +18072,9 @@ html {
 
 body {
   min-height: 100vh;
+  --bg-opacity: 1;
+  background-color: #f7fafc;
+  background-color: rgba(247, 250, 252, var(--bg-opacity));
 }
 
 @media (min-width: 640px) {
